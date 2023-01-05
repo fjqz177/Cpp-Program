@@ -1,43 +1,42 @@
 #include <iostream>
+#include<vector>
 #include <windows.h>
 using namespace std;
 
 int main()
 {
-	int ans = 0;//ç”¨æ¥è®¡æ•°
-    int nei;//å¤šå°‘ä»¥å†…
-    cin>>nei;
-	bool sushu[nei+1];//è‡ªç„¶æ•°ä»0å¼€å§‹ï¼Œæ‰€ä»¥å¤šè®°ä¸€ä¸ª0ï¼Œè¦+1
+	int ans = 0;//ÓÃÀ´¼ÆÊı
+    int nei;//¶àÉÙÒÔÄÚ
+	cout << "ÇëÎÊÄãÒª¼ÆËã¶àÉÙÒÔÄÚµÄÖÊÊı¸öÊı£º";
+    cin >>nei;
+	vector<int> sushu (nei+1,1);//×ÔÈ»Êı´Ó0¿ªÊ¼£¬ËùÒÔ¶à¼ÇÒ»¸ö0£¬Òª+1
 
+	//¼ÆÊ±Ä£¿é
     LARGE_INTEGER t1,t2,tc;
     QueryPerformanceFrequency(&tc);
     QueryPerformanceCounter(&t1);
+	//¼ÆÊ±Ä£¿é
 
-	for(int i = 0; i <= nei; i++)
-	{
-		sushu[i] = 1; //å…ˆå…¨éƒ¨ç½®ä¸ºçœŸ
-	}
-	sushu[0] = sushu[1] = 0;//1 0 ä¸æ˜¯ç´ æ•°
- 
-	for(int i = 2; i <= nei; i++) //ä»2å¼€å§‹å¾€åç­›
+	sushu[0] = sushu[1] = 0;//1 0 ²»ÊÇËØÊı
+	for(int i = 3; i <= nei; i=i+2) //´Ó2¿ªÊ¼ÍùºóÉ¸
 	{
 		if(sushu[i])
 		{
+			ans++;//Èç¹ûÊÇËØÊı ¾Í¼ÆÊı
 			for(int j = 2 * i; j <= nei; j += i)
 			{
 				sushu[j] = 0;
 			}
 		}
-		if(sushu[i])
-		{
-			ans++;//å¦‚æœæ˜¯ç´ æ•° å°±è®¡æ•°
-		}
 	}
+
+	//¼ÆÊ±Ä£¿é
     QueryPerformanceCounter(&t2);
     double time=(double)(t2.QuadPart-t1.QuadPart)/(double)tc.QuadPart; 
-    cout << "time = " << time << endl;  //è¾“å‡ºæ—¶é—´ï¼ˆå•ä½ï¼šï½“ï¼‰
+	//¼ÆÊ±Ä£¿é
 
-	cout << ans;
-    //system("pause");
+	cout << nei << " ÒÔÄÚÓĞ " << ans+1 << " ¸öÖÊÊı" <<endl;//Êä³öÖÊÊı¸öÊı
+	cout << "¼ÆËãºÄÊ± " << time << " Ãë" << endl;//Êä³öÊ±¼ä£¨µ¥Î»£º£ó£©
+    system("pause");//·ÀÉÁÍË
 	return 0;
 }
