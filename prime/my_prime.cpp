@@ -28,7 +28,6 @@ int main()
     LARGE_INTEGER t1,t2,tc;
     QueryPerformanceFrequency(&tc);
     QueryPerformanceCounter(&t1);
-    //计时模块
     for(int z=0; z<geshu2-1; z++)
     {
         if (lbbl(n, pl))
@@ -40,11 +39,10 @@ int main()
     }
     //计时模块
     QueryPerformanceCounter(&t2);
-    double time=(double)(t2.QuadPart-t1.QuadPart)/(double)tc.QuadPart; 
-    cout << "time = " << time << endl;  //输出时间（单位：ｓ）
-    //计时模块
-    cout << "前" << geshu << "中共有 " << pl.size() << "个质数" <<endl;
-    cout << pl[pl.size()-1] <<endl;
-    //system("pause");//防止闪退
+    double time=(double)(t2.QuadPart-t1.QuadPart)/(double)tc.QuadPart;
+    
+    cout << "time = " << time << " s" << endl;  //输出时间（单位：ｓ）
+    cout << "前" << geshu << "内共有 " << pl.size() << "个质数" <<endl;  //输出共有的质数数量
+    system("pause");//防止闪退
     return 0;
 }
