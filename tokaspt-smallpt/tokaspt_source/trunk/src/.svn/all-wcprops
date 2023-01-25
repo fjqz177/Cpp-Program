@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/21/trunk/src
+END
+specifics.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/10/trunk/src/specifics.h
+END
+gl_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/18/trunk/src/gl_camera.h
+END
+rt_prng.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/5/trunk/src/rt_prng.h
+END
+smallpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/5/trunk/src/smallpt.h
+END
+gl_scene.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/19/trunk/src/gl_scene.cc
+END
+gl_scene.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/14/trunk/src/gl_scene.h
+END
+tokaspt.cc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/18/trunk/src/tokaspt.cc
+END
+math_linear.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/math_linear.h
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/platform.h
+END
+rt_hit.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/10/trunk/src/rt_hit.h
+END
+rt_sphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/5/trunk/src/rt_sphere.h
+END
+smallpt.cu
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/21/trunk/src/smallpt.cu
+END
+tweaks.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/5/trunk/src/tweaks.h
+END
+rt_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/5/trunk/src/rt_alloc.h
+END
+rt_ray.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/5/trunk/src/rt_ray.h
+END
+colors.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/5/trunk/src/colors.h
+END
+predicated.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/5/trunk/src/predicated.h
+END

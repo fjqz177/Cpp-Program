@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/10/trunk/src/nv
+END
+nvGLWidgets.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/7/trunk/src/nv/nvGLWidgets.h
+END
+nvGlutWidgets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7/trunk/src/nv/nvGlutWidgets.cpp
+END
+nvWidgets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/7/trunk/src/nv/nvWidgets.cpp
+END
+nvGlutWidgets.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/7/trunk/src/nv/nvGlutWidgets.h
+END
+nvGLWidgets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/10/trunk/src/nv/nvGLWidgets.cpp
+END
+nvWidgets.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/7/trunk/src/nv/nvWidgets.h
+END
+nvShaderUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/7/trunk/src/nv/nvShaderUtils.h
+END
