@@ -4,9 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/primecount/include",
-                "${workspaceFolder}/primecount/lib/",
-                "${workspaceFolder}/primecount/lib/primesieve/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
