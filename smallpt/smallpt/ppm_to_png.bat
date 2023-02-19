@@ -1,0 +1,1 @@
+for %%a in (*.ppm) do ffmpeg -i "%%~a" "%%~na.png"
