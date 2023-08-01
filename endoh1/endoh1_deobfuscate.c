@@ -3,6 +3,9 @@
 #include <complex.h> //||||                     ,____.              IOCCC-  #
 double complex a[97687], *p, *q, *r = a, w = 0, d;
 int x, y;
+#define G 1
+#define P 4
+#define V 8
 char b[6856] = "\x1b[2J"
                "\x1b"
                "[1;1H     ",
